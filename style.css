@@ -1,0 +1,50 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato" , sans-serif ;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+
+   
+}
+.pimg1 {
+   background-image: url(img.jpg);
+   min-height: 100%;
+   position: relative;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.pimg2{
+    background-image: url(sharif.png);
+   min-height: 100%;
+   position: relative;
+   background-position: left;
+
+   background-repeat: no-repeat;
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+
+}
+.textBg{
+    background: #323534;
+    color: aliceblue;
+    padding: 20px;
+}
+.section{
+    padding: 50px 80px;
+    text-align: center;
+}
+.section-light{
+    background-color: #f4f4f4;
+    color: #666;
+}
